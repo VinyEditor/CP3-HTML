@@ -1,0 +1,132 @@
+.body{
+    background-color: lightgray;
+    margin-left: 350px;
+    margin-right: 350px;
+}
+
+#meioheader{
+    margin: 0 auto 10px;
+    box-shadow: 0px 0px 69px -25px rgba(0,0,0,0.75);
+    background-color: deepskyblue;
+    display: flex;
+    flex-direction: row;
+    padding: 3%;
+    justify-content: space-evenly;
+    height: 100%;
+
+}
+
+#meioheader a {
+    text-decoration: none;
+    justify-content: space-between;
+    color: black;
+}
+
+#meioheader span{
+    color: steelblue;
+}
+
+#logo {
+    color: white;
+}
+
+.banner{
+    background-color: white;
+    text-decoration-color: black;
+    width:100%;
+    height: 100%;
+    text-align: center;
+}
+
+.check{
+    background-color: aqua;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+}
+
+
+.grid{ 
+    display: grid;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-left: center;
+    margin:50px auto;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;}
+
+.div1{
+    background-color: lightseagreen;
+    box-sizing: border-box;
+    width: 60%;
+    height: 100%;
+    padding: 30px;
+    display:flex;  
+}
+
+
+.div2{
+    background-color: seagreen;
+    box-sizing: border-box;
+    width: 25%;
+    height: 100%;
+    padding: 30px;
+    display:flex;
+    
+}
+
+.div3{
+    background-color: lightseagreen;
+    box-sizing: border-box;
+    width: 25%;
+    height: 100%;
+    padding: 30px;
+    display:flex;
+
+}
+
+.div4{
+    background-color: lightseagreen;
+    box-sizing: border-box;
+    width: 25%;
+    height: 100%;
+    padding: 30px;
+    display: flex;
+}
+
+.banner{
+    float: left;
+    width: 50%;
+    height: auto;
+    padding: 5px;
+}
+
+.section{
+    display: grid;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-left: center;
+    margin:50px auto;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 20px;
+}
+
+.art{background-color: white;
+}
+
+.button{
+    
+    background-color: black;
+    color: white;
+}
+
+.par{
+    text-align: center;
+}
+
+.footer{
+    background-color: darkslategrey;
+    color: white;
+    text-align: center;
+    padding: 30px;
+}
